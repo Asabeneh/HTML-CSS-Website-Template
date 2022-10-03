@@ -1,0 +1,23 @@
+# What are we going to learn to day? 
+- Revise what we learn last week
+- We will learn new HTML elements
+- We learn HTML attributes
+- We will learn block and non-block elements
+- We will learn semantic HTML elements
+- We will learn HTML entities
+- We will learn HTML table
+- We will learn HTML form
+- We will learn path
+
+What is an HTML? 
+- HTML is the building block of every website
+- HyperText Markup Language
+
+What is an HTML element?
+An HTML element can be created using an open and closing tag but there are also self closing elements
+<p > </p>
+<div></div>
+<hr>
+<br>
+<img src='' width="" height="" alt="" id="profile-image" class="avatar"/>
+
