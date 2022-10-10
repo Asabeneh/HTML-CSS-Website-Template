@@ -6,4 +6,7 @@ footer {
     bottom:0;
     width:100%;
 }
-  
+footer div {
+    clear:left;
+}
+
