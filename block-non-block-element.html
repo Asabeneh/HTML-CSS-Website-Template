@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        /*display:  block, inline-block, inline, none */
+         .box {
+            width:200px;
+            height:200px;
+            border:2px solid green;
+            margin-bottom: 15px;
+            padding:15px;
+            text-align: center;
+            background-color: lightblue;
+            border-radius: 5px;
+            text-align: center;
+            transition:0.3s;  
+          
+        }
+        .box p {
+            display: none;
+            transition: 0.8s;
+            
+        }
+        .box:hover p{
+
+            display: block;
+
+        }
+     
+     /*    #box1{
+            background-color: green;;
+            color:rgb(194, 85, 12);
+        }
+        #box1:hover, #box2:hover, #box3:hover {
+            background-color:white;
+            border:1px solid green;
+            cursor: pointer;
+        }
+        #box2{
+            background-color: rgb(220, 211, 41);;
+        }
+        #box3{
+            background-color: rgb(211, 71, 32);;
+        }
+        div:hover {
+            background-color: salmon;;
+
+        }
+        #title-1 {
+            color:blue;
+        }
+        .title {
+            color:green;
+        }
+      
+        h1 {
+            color:red;
+        } */
+   /*      a[href='https://google.com'] {
+            color:red;
+        }
+        a[href*='facebook'] {
+            color:orange;
+        }
+        a[href^='https'] {
+            text-transform: uppercase;
+        }
+        a[target='_blank']{
+            font-size: 60px;
+        } */
+        span {
+            display: inline-block;
+            border:2px solid rgb(143, 239, 143);
+            background-color: rgb(143, 239, 143);;
+            width:200px;
+            height:200px;
+            margin-bottom: 15px;
+            line-height: 200px;
+            text-align: center;
+            font-size:96px;
+            border-top-left-radius: 2%;
+            border-bottom-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 2%;
+        }
+        .banner {
+            width: 700px;
+            height: 250px;
+            line-height: 250px;
+            font-size:48px;
+            text-align: center;
+            background-color: blueviolet;
+            margin-bottom: 50px;
+            padding:25px;
+            border-radius: 25px;
+            border-bottom-right-radius: 125px;
+            border-top-right-radius: 125px;
+        }
+      
+     
+    </style>
+</head>
+<body>
+<h2>Block Elements:block, inline block, inline</h2>
+<div class="box" id="box1">
+        <h2>HTML</h2>
+        <p>Learn more about HTML</p>
+    </div>
+
+    
+<div class="box" id="box2">
+        <h2>CSS</h2>
+       <p>Learn more about CSS</p>
+</div>
+
+<div class="box" id="box3">
+        <h2>JavaScript</h2>
+        <p>Learn more about JavaScript</p>
+    </div> 
+    
+<!--     <h1 id="title-1" class="title">Lets learn specificity</h1>
+
+    <a href="https://google.com">Google</a>
+    <a href="https://facebook.com">Facebook</a>
+    <a href="http://linkedin.com" target="_blank">LinkedIn</a> -->
+
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+<div class="banner">
+    The best HTML and CSS Training
+</div>
+
+    
+</body>
+</html>
