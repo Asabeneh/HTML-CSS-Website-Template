@@ -1,0 +1,46 @@
+/* UNIVERSAL SELECT*/
+* {
+    margin: 0;
+    padding:0;
+    }
+
+   /* CSS html  */
+   html {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+    header, main, footer {
+        padding:30px;
+    }
+
+
+    body {
+        font-family: Lato;
+        line-height: 150%;
+    }
+    main{
+        width:70%;
+        margin:auto;
+        margin-bottom: 100px;
+     }
+
+    section {
+        margin:30px 0;
+        /* border:1px solid rgb(241, 236, 236); */
+        padding:30px;
+        box-shadow: 0 0 2px 2px rgba(237, 233, 233, 0.25);;
+       
+    }
+    section article h2 {
+        margin-bottom: 15px;;
+    }
+    section ul li {
+        list-style: none;
+    }
+    p {
+        margin-bottom:15px;
+    }
+
+       

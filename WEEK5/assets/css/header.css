@@ -1,0 +1,47 @@
+header {
+    background-color:#f3d36b;
+    height:200px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+  font-size: 38px;
+  font-weight: 900;
+  color:rgb(49, 44, 44);
+
+  }
+  nav {
+    padding:15px 0;
+
+    background-color: rgb(182, 243, 164);
+    background-color: rgb(42, 40, 40);
+    width:70%;
+    margin:30px auto;
+  }
+
+.nav-list {
+    display: inline-block;
+    margin:0 5px;
+    
+}
+.nav-link{
+    font-size:18px;
+    color:#f3d36b;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.nav-link:hover {
+    border-bottom: 2px solid #f3d36b;
+
+}
+#up{
+    width:100px;
+    float:right;
+    margin-bottom:0
+}
+.active {
+    border-bottom: 2px solid #f3d36b;
+}
