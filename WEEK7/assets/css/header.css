@@ -25,13 +25,14 @@ header {
  
 .nav-list {
     display: inline-block;
-    margin:0 2px;
+    margin:0 15px;
 }
 .nav-link{
     font-size:18px;
     text-decoration:none;
     text-transform: uppercase;
     font-weight: bold;
+    padding-bottom: 3px;
     color:black;
     /* color:#f3d36b; */
 
@@ -48,7 +49,8 @@ header {
 }
 
 .active {
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid #2dd60f;
+    color:#eb4646;
 }
 .title-1{
     font-size: 44px;

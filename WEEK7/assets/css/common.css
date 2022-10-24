@@ -18,7 +18,7 @@ footer {
 
 body {
 
-  font-family:Raleway;
+  font-family:Roboto;
   line-height: 160%;
 }
 main {
@@ -30,8 +30,9 @@ section h2 {
     font-weight: bold;
     text-transform: uppercase;
     color:rgb(37, 35, 35);
+    color:#eb4646;
     letter-spacing: 2px;;
-    font-family: Lato;
+    font-family: Roboto;
     /* font-family:Raleway; */
     /* 
     Roboto
@@ -49,9 +50,9 @@ section h2 {
      */
 }
 section {
-  margin: 30px 0;
+  margin: 30px;
   /* border:1px solid rgb(241, 236, 236); */
-  padding: 30px;
+  padding: 50px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 section article h2 {
@@ -65,11 +66,16 @@ p {
 }
 .down-arrow-wrapper a,
 .up-arrow-wrapper a {
-  color: red;
+  color:#eb4646;
   font-weight: bold;
 }
 .fa-chevron-down,
 .fa-chevron-up {
   font-size: 35px;
+  opacity: 0.35;
+}
+.fa-chevron-down:hover,
+.fa-chevron-up:hover {
+  opacity: 1;
 }
 

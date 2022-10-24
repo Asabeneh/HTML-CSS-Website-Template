@@ -15,9 +15,10 @@
     border-radius: 5px;
 }
 .flex-item h2 {
-    font-weight: 600;
+    font-weight: bold;
     font-size:20px;
     text-transform: uppercase;
+    margin: 15px auto;;
 }
 .flex-item:hover {
     transition: 0.2s;
