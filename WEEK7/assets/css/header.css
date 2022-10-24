@@ -1,0 +1,63 @@
+header {
+    background-color: #f3d36b;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 100;
+  }
+
+  h1 {
+  font-size: 38px;
+  font-weight: 900;
+  }
+  nav {
+    width:70%;
+    text-align: center;
+    padding:5px;
+    /* background-color: rgb(42, 40, 40);  */
+    margin:10px auto;
+    border-radius: 3px;;
+  }
+  .menu {
+    margin:3px auto;
+  }
+ 
+.nav-list {
+    display: inline-block;
+    margin:0 2px;
+}
+.nav-link{
+    font-size:18px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:black;
+    /* color:#f3d36b; */
+
+}
+.nav-link:hover {
+    border-bottom: 2px solid #f3d36b;
+}
+.up-arrow-wrapper{
+    width:90%;
+    margin:auto;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.active {
+    border-bottom: 2px solid red;
+}
+.title-1{
+    font-size: 44px;
+    text-transform: uppercase;
+    margin: 35px auto;
+}
+.washera {
+    color: #eb4646;
+}
+.academy {
+    color: #2dd60f;
+}
