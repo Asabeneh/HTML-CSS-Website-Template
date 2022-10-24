@@ -1,51 +1,75 @@
 /* UNIVERSAL SELECT*/
 * {
-    margin: 0;
-    padding:0;
-    }
-
-   /* CSS html  */
-   html {
-    overflow-x: hidden;
-    position: relative;
-    min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-    main, footer {
-        padding:30px;
-    }
-
-
-    body {
-        font-family: Roboto;
-        line-height: 160%;
-    }
-    main{
-        width:70%;
-        margin:200px auto;
-     }
-
-    section {
-        margin:30px 0;
-        /* border:1px solid rgb(241, 236, 236); */
-        padding:30px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-       
-    }
-    section article h2 {
-        margin-bottom: 15px;;
-    }
-    section ul li {
-        list-style: none;
-    }
-    p {
-        margin-bottom:15px;
-    }
-.down-arrow-wrapper a, .up-arrow-wrapper a {
-    color:red;
-    font-weight: bold;;
+/* CSS html  */
+html {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
 }
-    .fa-chevron-down, .fa-chevron-up {
-        font-size:35px;
 
-    }
+main,
+footer {
+  padding: 30px;
+}
+
+body {
+
+  font-family:Raleway;
+  line-height: 160%;
+}
+main {
+  width: 70%;
+  margin: 200px auto;
+}
+section h2 {
+    color: #f3d36b;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:rgb(37, 35, 35);
+    letter-spacing: 2px;;
+    font-family: Lato;
+    /* font-family:Raleway; */
+    /* 
+    Roboto
+    Nunito
+    Raleway
+    Lora
+      Montserrat
+      Open+Sans
+      Poppins
+      Oswals
+      Roboto+Slab
+      Work+Sans
+      Karla
+   
+     */
+}
+section {
+  margin: 30px 0;
+  /* border:1px solid rgb(241, 236, 236); */
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+section article h2 {
+  margin-bottom: 15px;
+}
+section ul li {
+  list-style: none;
+}
+p {
+  margin-bottom: 15px;
+}
+.down-arrow-wrapper a,
+.up-arrow-wrapper a {
+  color: red;
+  font-weight: bold;
+}
+.fa-chevron-down,
+.fa-chevron-up {
+  font-size: 35px;
+}
+
