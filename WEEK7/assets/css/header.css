@@ -1,5 +1,5 @@
 header {
-    background-color: #f3d36b;
+    background-color:  #ffe57c;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -34,11 +34,11 @@ header {
     font-weight: bold;
     padding-bottom: 3px;
     color:black;
-    /* color:#f3d36b; */
+
 
 }
 .nav-link:hover {
-    border-bottom: 2px solid #f3d36b;
+    border-bottom: 2px solid  #ffe57c;
 }
 .up-arrow-wrapper{
     width:90%;
