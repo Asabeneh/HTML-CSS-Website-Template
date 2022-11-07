@@ -7,10 +7,6 @@ header {
     z-index: 100;
   }
 
-  h1 {
-  font-size: 38px;
-  font-weight: 900;
-  }
   nav {
     width:70%;
     text-align: center;
@@ -20,12 +16,13 @@ header {
     border-radius: 3px;;
   }
   .menu {
+    display: flex;
     margin:3px auto;
   }
  
 .nav-list {
-    display: inline-block;
     margin:0 15px;
+    list-style: none;
 }
 .nav-link{
     font-size:18px;
@@ -56,6 +53,8 @@ header {
     font-size: 44px;
     text-transform: uppercase;
     margin: 35px auto;
+    font-size: 38px;
+    font-weight: 900;
 }
 .washera {
     color: #eb4646;
@@ -65,14 +64,25 @@ header {
 }
 @media (max-width: 480px ) {
     header {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;;
+        padding:0;
     }
     .title-1 {
-        font-size:26px
+        font-size:22px
+    }
+    .menu {
+        flex-direction: column;
     }
     .nav-list {
         display:block;
         text-align: left;
-        margin:25px auto;
+        margin:8px auto;
+        padding:0;
+    }
+    .nav-link {
+        font-size: 14px;
     }
 }
