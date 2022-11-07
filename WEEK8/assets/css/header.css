@@ -73,5 +73,6 @@ header {
     .nav-list {
         display:block;
         text-align: left;
+        margin:25px auto;
     }
 }

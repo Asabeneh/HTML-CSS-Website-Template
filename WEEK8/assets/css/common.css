@@ -81,7 +81,7 @@ p {
 
 @media (max-width: 480px ) {
   main {
-    margin:280px 0;
+    margin:425px 0;
     width:100%;
     
   }
@@ -104,6 +104,7 @@ p {
   }
   section ul li {
     font-size: 14px;
+
   }
   
  
