@@ -58,6 +58,10 @@ section {
 section article h2 {
   margin-bottom: 15px;
 }
+.countries article {
+  padding: 20px;
+
+}
 section ul li {
   list-style: none;
 }
@@ -110,21 +114,58 @@ p {
   
  
 }
+table,td, th {
+  width:100%;
+  border: 1px solid rgb(157, 150, 150);
+  border:1px solid rgb(135, 80, 236);
+  border-collapse: collapse;
+  table-layout : fixed;
+  text-align: left;
+}
+th {
+  text-align: center;
+  background-color: #eb4646;
+  background-color: rgb(135, 80, 236);
+  color:white;
+}
+td, th {
+  padding-left:5px;
+}
+/* form */
 
+form {
+  width: 50%;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto;
+
+}
+.form-group label {
+  margin-bottom: 5px;
+
+
+}
+.form-group input {
+  border: 1px solid  rgb(192, 172, 231);
+  outline:1px solid  rgb(192, 172, 231);
+  padding:10px;
+}
+.form-group input:hover, .form-group input:focus {
+  outline:2px solid  rgb(135, 80, 236);
+}
+.form-group select {
+  padding:10px;
+}
 @media (min-width: 768px) {
-  body {
-    background-color: blue;
-  }
+  
 }
 
 @media (min-width: 1024px) {
-  body {
-    background-color: orange;
-  }
+ 
 }
 
 @media (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
+ 
 }

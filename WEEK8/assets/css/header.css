@@ -1,27 +1,30 @@
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color:  #ffe57c;
-    text-align: center;
     width: 100%;
     position: fixed;
     top:0;
     z-index: 100;
+    top: 0;
   }
 
   nav {
+    flex:1;
     width:70%;
     text-align: center;
     padding:5px;
-    /* background-color: rgb(42, 40, 40);  */
     margin:10px auto;
     border-radius: 3px;;
   }
   .menu {
     display: flex;
-    margin:3px auto;
+    justify-content: center;
   }
  
 .nav-list {
-    margin:0 15px;
+    margin:0 10px;
     list-style: none;
 }
 .nav-link{
@@ -35,7 +38,7 @@ header {
 
 }
 .nav-link:hover {
-    border-bottom: 2px solid  #ffe57c;
+    border-bottom: 2px solid  #1C6E15;
 }
 .up-arrow-wrapper{
     width:90%;
