@@ -1,6 +1,8 @@
 /* UNIVERSAL SELECT*/
 :root {
   --primary-color:#ffe57c;
+  --body-bg-color:#09091b;
+  --sec-bg-color:#060613;
   --secondary-color:rgb(235, 70, 70);
   --secondary-color-light:rgba(235, 70, 70, 0.25);
   --text-color:rgb(38, 36, 36);
@@ -31,7 +33,7 @@ body {
 
   font-family:Roboto;
   line-height: 160%;
-  color:var(--text-color)
+  color:var(--text-color);
 }
 main {
   width: 80%;
@@ -64,8 +66,11 @@ section h2 {
 section {
   margin: 20px auto;
   padding: 30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow:  0 1px 2px #0000003d,0 1px 3px #0000001f;
+ /*  background-color: var(--sec-bg-color);
+  color:#ffffffc7; */
+  border-radius: 5px;
 }
 section article h2 {
   margin-bottom: 15px;
