@@ -22,7 +22,7 @@ body {
   line-height: 160%;
 }
 main {
-  width: 70%;
+  width: 80%;
   margin: 200px auto;
 }
 section h2 {
@@ -50,10 +50,10 @@ section h2 {
      */
 }
 section {
-  margin: 30px;
-  /* border:1px solid rgb(241, 236, 236); */
-  padding: 50px;
+  margin: 20px auto;
+  padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
 }
 section article h2 {
   margin-bottom: 15px;
@@ -79,3 +79,50 @@ p {
   opacity: 1;
 }
 
+@media (max-width: 480px ) {
+  main {
+    margin:280px 0;
+    width:100%;
+    
+  }
+  h2 {
+    font-size:18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  img {
+    width:30%;
+  }
+  video, auto {
+    width:100%;
+  }
+  section {
+    margin:15px auto;
+    padding:30px;
+    width:100%;
+  }
+  section ul li {
+    font-size: 14px;
+  }
+  
+ 
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: green;
+  }
+}

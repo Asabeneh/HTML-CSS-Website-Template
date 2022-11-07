@@ -63,3 +63,15 @@ header {
 .academy {
     color:#1C6E15;
 }
+@media (max-width: 480px ) {
+    header {
+        text-align: center;
+    }
+    .title-1 {
+        font-size:26px
+    }
+    .nav-list {
+        display:block;
+        text-align: left;
+    }
+}
