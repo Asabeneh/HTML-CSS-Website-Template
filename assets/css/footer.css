@@ -38,6 +38,9 @@ text-decoration: none;
 .fa-twitter-square {
     color: #00acee;
 }
+footer small {
+    color:var(--text-color);
+}
 
 @media(max-width:480px){
     .copy-right small {

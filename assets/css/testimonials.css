@@ -18,7 +18,10 @@
     font-weight: bold;
     font-size:20px;
     text-transform: uppercase;
-    margin: 15px auto;;
+}
+.flex-item h3 {
+    font-weight: 300;
+    color:rgb(170, 159, 159);
 }
 .flex-item:hover {
     transition: 0.2s;
